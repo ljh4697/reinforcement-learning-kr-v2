@@ -81,15 +81,15 @@ class GraphicDisplay(tk.Tk):
 
     def load_images(self):
         PhotoImage = ImageTk.PhotoImage
-        up = PhotoImage(Image.open("../img/up.png").resize((13, 13)))
-        right = PhotoImage(Image.open("../img/right.png").resize((13, 13)))
-        left = PhotoImage(Image.open("../img/left.png").resize((13, 13)))
-        down = PhotoImage(Image.open("../img/down.png").resize((13, 13)))
+        up = PhotoImage(Image.open("C:/Users/ljhlj/OneDrive/문서/GitHub/reinforcement-learning-kr-v2/1-grid-world/img/up.png").resize((13, 13)))
+        right = PhotoImage(Image.open("C:/Users/ljhlj/OneDrive/문서/GitHub/reinforcement-learning-kr-v2/1-grid-world/img/right.png").resize((13, 13)))
+        left = PhotoImage(Image.open("C:/Users/ljhlj/OneDrive/문서/GitHub/reinforcement-learning-kr-v2/1-grid-world/img/left.png").resize((13, 13)))
+        down = PhotoImage(Image.open("C:/Users/ljhlj/OneDrive/문서/GitHub/reinforcement-learning-kr-v2/1-grid-world/img/down.png").resize((13, 13)))
         rectangle = PhotoImage(
-            Image.open("../img/rectangle.png").resize((65, 65)))
+            Image.open("C:/Users/ljhlj/OneDrive/문서/GitHub/reinforcement-learning-kr-v2/1-grid-world/img/rectangle.png").resize((65, 65)))
         triangle = PhotoImage(
-            Image.open("../img/triangle.png").resize((65, 65)))
-        circle = PhotoImage(Image.open("../img/circle.png").resize((65, 65)))
+            Image.open("C:/Users/ljhlj/OneDrive/문서/GitHub/reinforcement-learning-kr-v2/1-grid-world/img/triangle.png").resize((65, 65)))
+        circle = PhotoImage(Image.open("C:/Users/ljhlj/OneDrive/문서/GitHub/reinforcement-learning-kr-v2/1-grid-world/img/circle.png").resize((65, 65)))
         return (up, down, left, right), (rectangle, triangle, circle)
 
     def clear(self):
